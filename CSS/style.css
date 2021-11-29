@@ -37,7 +37,8 @@ header>nav ul li{
     display:inline-block
 }
 header>nav ul li a{
-    display:block;color:#fff;
+    display:block;
+    color:#282828;
     height:40px;
     line-height:45px;
     padding:0 20px;
@@ -75,7 +76,7 @@ header>nav ul li a:hover{
 /* 메인 */
 .main{
     text-align:center;
-    margin:170px auto 0 auto;
+    margin:240px auto 0 auto;
     width:1200px;
     height:750px;
     position:relative
@@ -175,4 +176,18 @@ header>nav ul li a:hover{
 }
 .app {
     display: none;
+}
+
+footer {
+    background-color: #444;
+    height: 100px;
+}
+
+footer > div {
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 100px;
+    width: 1200px;
+    color: #fff;
+    text-align: center;
 }
